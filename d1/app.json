@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Urchin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"Home",
+      "iconPath":"/assets/images/tab_home.png",
+      "selectedIconPath":"/assets/images/tab_home_press.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "Logs",
+      "iconPath": "/assets/images/tab_message.png",
+      "selectedIconPath": "/assets/images/tab_message_press.png"
+    }],
+    "color": "Black",
+    "selectedColor": "Blue",
+    "backgroundColor": "white"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ]
+}
